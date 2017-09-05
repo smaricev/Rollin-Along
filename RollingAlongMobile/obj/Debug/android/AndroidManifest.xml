@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="RollingAlongMobile.RollingAlongMobile" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="25" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:label="RollingAlongMobile" android:largeHeap="true" android:icon="@drawable/ra" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="Rolling Along" android:name="md574364b959f09546a79c5ef52019a9995.PrijavaActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Profil" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md582674ed76b9ba8a3c7a508b37bdad1e7.ProfilActivity" />
+    <activity android:label="Registracija" android:name="md5af23037cb53713ca80789f82d495b9ce.RegistracijaActivity" />
+    <activity android:label="PonudaActivity" android:name="md58e531ee3921715aca828241907676a7a.PonudaBiciklaActivity" />
+    <activity android:label="PounudaOpremeActivity" android:name="md58e531ee3921715aca828241907676a7a.PonudaOpremeActivity" />
+    <activity android:label="StavkaPonudeActivity" android:name="md58e531ee3921715aca828241907676a7a.StavkaPonudeBiciklaActivity" />
+    <activity android:label="Activity1" android:name="md5d50bb38e08d9ee63656b606e7dbd7986.NajamActivity" />
+    <activity android:label="Prijava Incidenta" android:name="md5d50bb38e08d9ee63656b606e7dbd7986.PrijavaIncidentaActivity" />
+    <activity android:label="Activity1" android:name="md5d50bb38e08d9ee63656b606e7dbd7986.LokacijaBiciklaActivity" />
+    <activity android:label="Aktivni najmovi" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5d50bb38e08d9ee63656b606e7dbd7986.AktivniNajmoviActivity" />
+    <activity android:label="RecenzijaActivity" android:name="md5d50bb38e08d9ee63656b606e7dbd7986.RecenzijaActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="RollingAlongMobile.RollingAlongMobile.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.RollingAlongMobile.RollingAlongMobile" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+</manifest>

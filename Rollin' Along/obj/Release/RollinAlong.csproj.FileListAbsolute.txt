@@ -1,0 +1,17 @@
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\Rolling_Along.exe.config
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\Rolling_Along.exe
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\Rolling_Along.pdb
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\MySql.Data.dll
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\Newtonsoft.Json.dll
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\RestSharp.dll
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\Newtonsoft.Json.xml
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Release\RestSharp.xml
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\RollinAlong.csprojResolveAssemblyReference.cache
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\Rollin__Along.FrmGlavna.resources
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\Rollin__Along.Pregled_Rezervacija.FrmRezervacije.resources
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\Rollin__Along.Prijava.resources
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\Rollin__Along.Properties.Resources.resources
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\Rollin__Along.Upravljanje_Incidentima.FrmIncidenti.resources
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\RollinAlong.csproj.GenerateResource.Cache
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\Rolling_Along.exe
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\obj\Release\Rolling_Along.pdb

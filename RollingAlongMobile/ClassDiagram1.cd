@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RollingAlongMobile.Najam.AktivniNajmoviActivity">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Najam\AktivniNajmoviActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Najam.LokacijaBiciklaActivity">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Najam\LokacijaBiciklaActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NajmoviAdapter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Najam.NajmoviAdapter">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAgAABgAAAAAAACAAAAUQAgAAACAAAQAAhAAAAAAA=</HashCode>
+      <FileName>Najam\NajmoviAdapter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_memoryCache" />
+      <Property Name="PrijavaIncidentaActivity" />
+      <Property Name="AktivniNajmoviActivity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Najam.MemoryLimitedLruCache">
+    <Position X="4" Y="9.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Najam\NajmoviAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Najam.PrijavaIncidentaActivity">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACCIAIEECAgAAAABAAAAgBAAQA=</HashCode>
+      <FileName>Najam\PrijavaIncidentaActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Najam.RecenzijaActivity">
+    <Position X="9.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAKCAAAAAACAAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>Najam\RecenzijaActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NajmoviAdapter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.Bicycle">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAIAAQACIAAAAAAAAAABAAACAA=</HashCode>
+      <FileName>Podatkovne klase\Bicycle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.Category">
+    <Position X="17.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Podatkovne klase\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.CreateReview">
+    <Position X="6.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Podatkovne klase\CreateReview.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RecenzijaActivity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.Location">
+    <Position X="17" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAEAAAAAAAAIIAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Podatkovne klase\Location.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.Login">
+    <Position X="12.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAgAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Podatkovne klase\Login.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PrijavaActivity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.Rent">
+    <Position X="14.25" Y="3" Width="1.5" />
+    <AssociationLine Name="User" Type="RollingAlongMobile.Podatkovne_klase.User" FixedFromPoint="true">
+      <Path>
+        <Point X="15" Y="4.68" />
+        <Point X="15" Y="6.725" />
+        <Point X="13" Y="6.725" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAEBAAAAAAAAAIABAAAAABAAAEAAACAAAAAAAA=</HashCode>
+      <FileName>Podatkovne klase\Rent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bicycle" />
+      <Property Name="User" />
+      <Property Name="Review" />
+      <Property Name="Location" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.Review">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Podatkovne klase\Review.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Podatkovne_klase.User">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQAAgAwABAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Podatkovne klase\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Pretrazivanje_Inventara.PonudaBiciklaActivity">
+    <Position X="16.75" Y="5.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pretrazivanje Inventara\PonudaBiciklaActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProfilActivity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Pretrazivanje_Inventara.PonudaOpremeActivity">
+    <Position X="19.5" Y="3" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pretrazivanje Inventara\PonudaOpremeActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PonudaBiciklaActivity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.PrijavaActivity">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prijava i registracija\PrijavaActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RollingAlongMobile.Prijava_i_registracija.RegistracijaActivity">
+    <Position X="15.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prijava i registracija\RegistracijaActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PrijavaActivity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RollingAlongMobile.Profil.ProfilActivity">
+    <Position X="18.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAABAEEAgAAAgAQAAACAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Profil\ProfilActivity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PrijavaActivity" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

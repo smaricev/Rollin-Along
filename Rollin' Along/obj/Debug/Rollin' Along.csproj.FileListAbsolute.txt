@@ -1,0 +1,12 @@
+\\SERVER-SM1\Server share\PI_projekt\Rollin' Along\Rollin' Along\bin\Debug\Rollin' Along.exe.config
+C:\Users\stjep\Desktop\Rollin\Rollin' Along\bin\Debug\Rollin' Along.exe.config
+C:\Users\stjep\Desktop\PI\Rollin' Along\bin\Debug\Rollin' Along.exe.config
+C:\Users\stjep\Desktop\PI\Rollin' Along\bin\Debug\Rollin' Along.exe
+C:\Users\stjep\Desktop\PI\Rollin' Along\bin\Debug\Rollin' Along.pdb
+C:\Users\stjep\Desktop\PI\Rollin' Along\obj\Debug\Rollin' Along.csprojResolveAssemblyReference.cache
+C:\Users\stjep\Desktop\PI\Rollin' Along\obj\Debug\Rollin__Along.Properties.Resources.resources
+C:\Users\stjep\Desktop\PI\Rollin' Along\obj\Debug\Rollin' Along.csproj.GenerateResource.Cache
+C:\Users\stjep\Desktop\PI\Rollin' Along\obj\Debug\Rollin' Along.exe
+C:\Users\stjep\Desktop\PI\Rollin' Along\obj\Debug\Rollin' Along.pdb
+C:\Users\stjep\Desktop\PI\Rollin' Along\bin\Debug\Rolling_a.exe.config
+C:\Users\stjep\Desktop\PI\Rollin' Along\bin\Debug\Rolling_Along.exe.config
